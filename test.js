@@ -1,6 +1,5 @@
 'use strict';
 
-var del = require('del');
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 
