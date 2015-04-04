@@ -1,0 +1,29 @@
+{
+  "name": "generator-postcss",
+  "version": "0.0.0",
+  "description": "Yeoman generator for developing a PostCSS module.",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "postcss",
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info"
+  },
+  "repository": "ben-eb/generator-postcss",
+  "homepage": "https://github.com/ben-eb/generator-postcss",
+  "dependencies": {
+    "yeoman-generator": "^0.18.10"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  }
+}
