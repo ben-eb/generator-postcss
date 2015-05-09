@@ -1,6 +1,7 @@
 'use strict';
 
 var generators = require('yeoman-generator');
+var str = require('underscore.string');
 
 /**
  * If leading underscore, remove it; if no leading underscore, prepend a '.'
@@ -34,7 +35,7 @@ module.exports = generators.Base.extend({
             default: this.appname.replace(/\s/g, '-'),
             validate: required('plugin name'),
             filter: function (name) {
-                return this._.slugify(name);
+                return str.slugify(name);
             }.bind(this)
         }, {
             name: 'postcssPrefix',
@@ -70,7 +71,7 @@ module.exports = generators.Base.extend({
             this.pluginDescription = props.pluginDescription;
 
             this.pluginShortName = plugin.replace('postcss-', '');
-            this.functionName = this._.camelize(this.pluginShortName);
+            this.functionName = str.camelize(this.pluginShortName);
 
             this.authorName = this.user.git.name();
             this.authorEmail = this.user.git.email();

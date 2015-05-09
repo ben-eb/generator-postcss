@@ -18,6 +18,7 @@
   "repository": "ben-eb/generator-postcss",
   "homepage": "https://github.com/ben-eb/generator-postcss",
   "dependencies": {
+    "underscore.string": "^3.0.3",
     "yeoman-generator": "^0.19.2"
   },
   "devDependencies": {
