@@ -22,7 +22,8 @@
     "yeoman-generator": "^0.19.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "yeoman-assert": "^2.0.0"
   },
   "scripts": {
     "test": "mocha test.js"
