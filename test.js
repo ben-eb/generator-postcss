@@ -1,6 +1,7 @@
 'use strict';
 
 var path = require('path');
+var helpers = require('yeoman-generator').test;
 var assert = require('yeoman-assert');
 
 describe(require('./package.json').name, function () {
