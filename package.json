@@ -18,10 +18,10 @@
   "repository": "ben-eb/generator-postcss",
   "homepage": "https://github.com/ben-eb/generator-postcss",
   "dependencies": {
-    "yeoman-generator": "^0.18.10"
+    "yeoman-generator": "^0.19.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.1"
+    "mocha": "^2.2.4"
   },
   "scripts": {
     "test": "mocha test.js"
