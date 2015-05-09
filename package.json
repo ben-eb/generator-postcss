@@ -1,6 +1,6 @@
 {
   "name": "generator-postcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator for developing a PostCSS module.",
   "files": [
     "app"
