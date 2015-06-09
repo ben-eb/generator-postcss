@@ -3,17 +3,12 @@ var postcss = require('postcss');
 var plugin = require('./');
 var name = require('./package.json').name;
 
-var tests = [
-/*
-    Note that this test will fail! It's just an example to get you started:
-    {
-        message: 'should transform css',
-        fixture: 'h1 { color: red }',
-        expected: 'h1{color:red}',
-        options: {foo: true}
-    }
-*/
-];
+var tests = [{
+    message: 'should transform css',
+    fixture: 'h1 { color: red }',
+    expected: 'h1 { color: red }',
+    options: {foo: true}
+}];
 
 function process (css, options) {
     return postcss(plugin(options)).process(css).css;

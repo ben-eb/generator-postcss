@@ -18,11 +18,11 @@
   "repository": "ben-eb/generator-postcss",
   "homepage": "https://github.com/ben-eb/generator-postcss",
   "dependencies": {
-    "underscore.string": "^3.0.3",
-    "yeoman-generator": "^0.19.2"
+    "underscore.string": "^3.1.1",
+    "yeoman-generator": "^0.20.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.4",
+    "mocha": "^2.2.5",
     "yeoman-assert": "^2.0.0"
   },
   "scripts": {

@@ -12,13 +12,18 @@ npm install <%= pluginName %> --save
 
 ## Example
 
-```js
-var postcss = require('postcss');
+### Input
 
-var css = 'h1 { color: red }';
-console.log(postcss([ require('<%= pluginName %>') ]).process(css).css);
+```css
+h1 {
+    color: red;
+}
+```
 
-// => 'h1{color:red}'
+### Output
+
+```css
+h1{color:red}
 ```
 
 ## API
@@ -40,6 +45,11 @@ console.log(postcss([ require('<%= pluginName %>')({foo: true}) ]).process(css).
 
 // => 'h1{color:red}'
 ```
+
+## Usage
+
+See the [PostCSS documentation](https://github.com/postcss/postcss#usage) for
+examples for your environment.
 
 ## Contributing
 

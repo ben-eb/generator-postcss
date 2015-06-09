@@ -24,6 +24,6 @@
   },
   "repository": "<%= githubName %>/<%= pluginName %>",
   "dependencies": {
-    "postcss": "^4.1.2"
+    "postcss": "^4.1.11"
   }
 }
